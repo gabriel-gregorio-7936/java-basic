@@ -1,0 +1,100 @@
+Programmming language java is case sensitive
+
+boolean
+byte
+char
+double
+float
+int
+long
+short
+
+You can increment the char variables, like 
+char variable;
+char++; // still is a char result
+
+You can use underscores to separate numbers
+123_45_1234
+123,451,234
+
+Hexadecimal: hex = 0xFF; // must begin with 0x or 0X;
+octal: oct = 011; // must begin with a 0;
+Binary: bin = 0b1100; // must begin with 0b or 0B;
+
+char = 'c';
+string = "s";
+
+&	AND
+|	OR
+^	XOR(EXCLUSIVE OR)
+||	Short-circuit OR
+&&	Short-circuit AND
+!	NOT
+~	NOT
+
+X += 10;
+X = X + 10;
+
++= -= *= /= %= &= |= ^=
+
+You can convert one type of variable to another, if and only if:
+- The two types are compatible;
+- The destination type is larger than the source type;
+
+If you put the type name inside parentheses in front of a variable, it converts the variable
+(int) (x / y);
+
+
+// Declaring arrays
+int[] nums = new int[10];
+int[][] table = new int[3][4];
+int[][] table = new int[3][];
+table[0] = new int[5];
+
+int[][] sqrs = {
+	{ 1, 1 },
+	{ 2, 4 },
+	{ 3, 9 },
+	{ 4, 16 },
+	{ 5, 25 },
+};
+
+for (int x: nums) sum += x; // it is read-only
+
+for (int[] x: nums) {
+	for (int y : x) {
+		commands;
+	}
+}
+
+
+String str = new String("Hello");
+String str2 = "blablbablablblbl";
+
+// Text blocks always begin with """
+""" """;
+
+var avg = 10.0; // declaration and initialization of a variable
+var myArray = new int[10]; // Declaration of an array
+var myArray = { 1, 2, 3 }; // Wrong
+
+
+value << num-bits // left shift
+value >> num-bits // right shift
+value >>> num-bits // unsigned right shift
+
+// If you right shift or left shift a byte or short value, it will first be promoted to int and then shifted.
+// A shift left doubles a value. A shift right halves it
+
+absval = val < 0 ? -val : val; // get absolute value of val
+
+
+
+class VarArgs3 {
+	static void vaTest (int ... v) {
+		
+	}
+
+}
+
+page 231
